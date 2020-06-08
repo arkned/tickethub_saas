@@ -14,6 +14,7 @@ The project runs on Postgres only because of the multi-tenancy strategy.
 like this ``/api/v1/users/webhook/auth/`` without the domain*.
 
 
+
 **Steps to run**
 -----
 * **Run django migrations:** ``python manage.py migrate_schemas --shared``. This creates the database relations and the schemas for the tenants.
